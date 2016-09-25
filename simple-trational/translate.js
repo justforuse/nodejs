@@ -8,7 +8,7 @@ for (var i in data) {
 }
 console.log(data);
 
-fs.writeFile(__dirname + "/simple_trational.json", JSON.stringify(data), function(err, data){
+fs.writeFile(__dirname + "/simple_trational.json", JSON.stringify(data, null, 4), function(err, data){
 	if(err){
 		console.error(err);
 	}else{
