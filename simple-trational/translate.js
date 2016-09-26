@@ -1,6 +1,6 @@
 var traditionlize = require("./traditionlize");
 
-traditionlize("simple.json")
+traditionlize("simple.json");
 // var fs = require("fs");
 
 // var data = JSON.parse(fs.readFileSync(__dirname + "/simple.json").toString());
