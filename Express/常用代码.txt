@@ -1,0 +1,42 @@
+<link rel="icon" href="img/favicon.png" type="image/x-icon">
+
+<!--[if lte IE 9]>
+<script type="text/javascript">
+	document.writeln("sss");
+</script>
+<![endif]-->
+
+document.designMode="on"
+
+<textarea style="resize:none;"></textarea>
+
+/*******************************************************************
+ * $q为内置服务
+****************************************************************/
+
+<embed wmode="transparent" src="http://chabudai.sakura.ne.jp/blogparts/honehoneclock/honehone_clock_wh.swf" quality="high" bgcolor="#ffffff" width="160" height="70" name="honehoneclock" align="middle" allowscriptaccess="always" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer">
+
+
+gitlab:	yuanxiaodong	yuanxiaodong
+redmine: 18944531995	yuanxiaodong
+openkm: yuanxiaodong 000000
+main: yuanxiaodong@pachiratech.com	pachira123
+
+<hr>
+<address>
+此文档的作者：<a href="http://www.justforuse.cn/wordpress" target="_blank">justforuse</a>
+Github Pages：<a href="http://justforuse.github.io" target="_blank">justforuse</a>
+</address>
+
+@media screen and (max-width: 300px) {
+    body {
+        background-color:lightblue;
+    }
+}
+
+/**
+ * Book类，代表一个书本.
+ * @constructor
+ * @param {string} title - 书本的标题.
+ * @param {string} author - 书本的作者.
+ */

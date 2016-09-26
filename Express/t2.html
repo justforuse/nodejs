@@ -1,0 +1,105 @@
+<script>
+var a1 = [{
+	"filterConditionRelation": "and",
+	"filterConditionField": "ID",
+	"filterConditionValue": "请问",
+	"filterConditionOperation": "="
+}]
+var a2 = [{
+	"filterConditionRelation": "and",
+	"filterConditionField": "ID",
+	"filterConditionValue": "请问",
+	"filterConditionOperation": "="
+}, {
+	"filterConditionRelation": "and",
+	"filterConditionField": "TextContent",
+	"filterConditionValue": "再见",
+	"filterConditionOperation": "match"
+}];
+
+var a3 = [{
+		"filterConditionRelation": "and",
+		"filterConditionField": "BatchID",
+		"filterConditionValue": "123",
+		"filterConditionOperation": "="
+	}, {
+		"filterConditionRelation": "and",
+		"filterConditionField": "SilenceMix",
+		"filterConditionValue": "234~",
+		"filterConditionOperation": "~"
+	}, {
+		"filterConditionRelation": "and",
+		"filterConditionField": "TextContent",
+		"filterConditionValue": "你好",
+		"filterConditionOperation": "match"
+	}, {
+		"filterConditionRelation": "and",
+		"filterConditionField": "occupation3",
+		"filterConditionValue": "再见",
+		"filterConditionOperation": "="
+	}, {
+		"filterConditionRelation": "and",
+		"filterConditionField": "TextContent",
+		"filterConditionValue": "你好 or 再见 and 谢谢 not 没事",
+		"filterConditionOperation": "match"
+	},{
+		"filterConditionRelation": "and",
+		"filterConditionField": "BatchID",
+		"filterConditionValue": "99999",
+		"filterConditionOperation": "="
+	}]
+var result;
+
+function treeLize(arr) {
+	if (arr.length < 1) {
+		return null;
+	}
+	var right = arr.slice(arr.length - 1)[0];
+	// console.log(arr.slice(0, (arr.length - 1))); // [{}].slice(0,0) == []
+	// console.log(arr.slice(arr.length - 1));  // [{}].slice(0) == [{}]
+	var tr = {
+		"type": (arr.slice(0, (arr.length - 1))).length == 0 ? (arr[0].filterConditionOperation == "match" ? "model" : "leaf") : "logic",
+		"content": (arr.length == 1) ? arr[0].filterConditionOperation : "and",
+		"not": false,
+		"hasBracket": false,
+		"left": (arr.length == 1) ? (arr[0].filterConditionOperation == "match" ? arr[0].filterConditionField : arr[0].filterConditionField) : treeLize(arr.slice(0, (arr.length - 1))),
+		// "right": arr.slice(arr.length - 1),
+		"right": (arr.length == 1) ? (arr[0].filterConditionOperation == "match" ? {
+			"type": "leaf",
+			"content": arr[0].filterConditionValue,
+			"not":false,
+			"hasBracket":false,
+			"left":null,
+			"right":null
+
+		}:   right.filterConditionValue) : {
+			"type": right.filterConditionOperation == "match" ? "model" : "leaf",
+			"content": right.filterConditionOperation,
+			"not": false,
+			"left": right.filterConditionField,
+			"right": right.filterConditionValue
+		}
+	}
+		// console.log(tr);
+	console.log(JSON.stringify(tr));
+	result = JSON.stringify(tr);
+	return tr;
+
+};
+treeLize(a1);
+document.write("1个条件: " + JSON.stringify(a1));
+document.write("<br><hr>");
+document.write(result);
+
+document.write("<br><hr>");
+treeLize(a2);
+document.write("2个条件: " + JSON.stringify(a2));
+document.write("<br><hr>");
+document.write(result);
+
+document.write("<br><hr>");
+treeLize(a3);
+document.write("6个条件: " + JSON.stringify(a3));
+document.write("<br><hr>");
+document.write(result);
+</script>
