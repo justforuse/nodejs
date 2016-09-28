@@ -1,0 +1,9 @@
+extends layout
+
+block content
+	- console.log(userList);
+	ul
+		- for(var i =0;i<userList.length;i++){
+			li 姓名：#{userList[i].name}, 居住省份：#{userList[i].address.province}, 城市：#{userList[i].address.city}
+		-}
+	
