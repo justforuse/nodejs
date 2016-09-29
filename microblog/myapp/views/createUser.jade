@@ -1,0 +1,11 @@
+extends layout
+
+block content
+	form(action="/user", method="POST")
+		input(type="text" name="username")
+		br
+		input(type="text" name="province")
+		br
+		input(type="text" name="city")
+		br
+		input(type="submit" value="创建用户")

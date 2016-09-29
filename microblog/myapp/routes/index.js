@@ -25,7 +25,22 @@ router.get('/', function(req, res, next) {
 router.get("/hello", function(req, res, next) {
 	res.send("现在时间是: " + new Date());
 });
-
+router.get("/user", function(req, res, next){
+	res.render('createUser');
+});
+router.post("/user", function(req, res, next){
+	console.log("username: " + req.body.username);
+	console.log("province: " + req.body.province);
+	console.log("city: " + req.body.city);
+	userList.push({
+		name:req.body.username,
+		address:{
+			province:req.body.province,
+			city:req.body.city
+		}
+	})
+	res.render('userList', {userList : userList});
+})
 router.all("/user/:username", function(req,res,next){
 	console.log("username: " + req.params.username);
 	//res.send(req.params.username);
