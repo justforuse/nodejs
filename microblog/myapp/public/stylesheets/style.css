@@ -15,3 +15,11 @@ ul {
 li {
 	margin-bottom: 25px;
 }
+
+.create-title {
+	text-align: center;
+}
+
+.create-reset {
+	margin-left: 20px;
+}

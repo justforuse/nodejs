@@ -1,11 +1,21 @@
 extends layout
 
 block content
-	form(action="/user", method="POST")
-		input(type="text" name="username")
-		br
-		input(type="text" name="province")
-		br
-		input(type="text" name="city")
-		br
-		input(type="submit" value="创建用户")
+	h1.create-title 创建用户
+	form.form-horizontal(action="/user", method="POST")
+		div.form-group
+			label.col-sm-2.control-label(for="username") 姓名
+			div.col-sm-10
+				input.form-control(type="text" id="username" name="username")
+		div.form-group
+			label.col-sm-2.control-label(for="province") 省份
+			div.col-sm-10
+				input.form-control(type="text" id="province" name="province")
+		div.form-group
+			label.col-sm-2.control-label(for="city") 城市
+			div.col-sm-10
+				input.form-control(type="text" id="city" name="city")
+		div.form-group
+			div.col-sm-10.col-sm-offset-2
+				button.btn.btn-default(type="submit") 确认创建
+				button.btn.btn-danger.create-reset(type="reset") 重置

@@ -38,8 +38,8 @@ router.post("/user", function(req, res, next){
 			province:req.body.province,
 			city:req.body.city
 		}
-	})
-	res.render('userList', {userList : userList});
+	});
+	res.send("<h1>创建成功</h1><a href='/'>←返回主页</a>");
 })
 router.all("/user/:username", function(req,res,next){
 	console.log("username: " + req.params.username);
