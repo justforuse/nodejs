@@ -1,0 +1,8 @@
+{
+	"psae.hello": "hello",
+	"psae.string": "string",
+	"psae.please-enter-string": "bye",
+	"hello": "你好",
+	"bye": "再见",
+	"string": "字符串"
+}
