@@ -2,8 +2,21 @@ extends layout
 
 block content
 	- console.log(userList);
-	ul
-		- for(var i =0;i<userList.length;i++){
-			li 姓名：#{userList[i].name}, 居住省份：#{userList[i].address.province}, 城市：#{userList[i].address.city}
-		-}
+	table.table
+		thead
+			tr
+				th 姓名
+				th 省份
+				th 城市
+				th 操作
+		- for(var i = 0; i< userList.length; i++)
+			tr
+				td 	#{userList[i].name}
+				td 	#{userList[i].address.province}
+				td 	#{userList[i].address.city}
+				td
+					a(href="/user/#{userList[i].address.city}") 修改
+					a(href="/user/#{userList[i].address.city}") 删除
+	a(href="/") ←返回主页
+
 	
