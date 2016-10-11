@@ -1,0 +1,7 @@
+{
+	"bulidState": "生成状态",
+	"downLoad": "下载",
+	"psae.report-manager-create-status.report-CREATE": "已创建，等待生成",
+	"psae.report-manager-create-status.report-PROCESSING": "正在生成",
+	"psae.report-manager-create-status.report-DONE": "已完成生成"
+}

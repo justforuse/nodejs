@@ -1,0 +1,665 @@
+Permission denied
+The page can not be found
+System exception
+Hello, <span class = 'badge userAccount'> {{account}} </ span>! Welcome to the Chihiro Analysis System.
+Business trends
+System Settings
+Business trends
+Role Management
+Dimension configuration
+User Management
+Operating trajectory
+The report template
+Parameter configuration
+Business exploration
+Business Modeling
+Report Management
+Call list
+Cross-analysis
+Stop word management
+Reason mining
+Comparative analysis
+Report Management
+Voice audiometry
+Filter management
+Filter management
+New model
+Model management
+New Topics
+Thematic management
+Create a new filter
+User parameter settings
+User parameter settings
+Administrator settings
+Administrator settings
+Business exploration
+Cross-analysis
+Dimension Management
+Call list
+Reason mining
+Comparative analysis
+Model Group Management
+Model management
+Thematic management
+Report Management
+Scoring rules
+Exception rule
+Stop word management
+Extended word management
+User group management
+Role Management
+System Management
+distribution
+Parameter configuration
+Dimension configuration
+The report template
+System log
+Filter management
+View
+New
+edit
+On the line / off the assembly line
+Import
+Export
+delete
+Start / Disable
+Report name
+Report template
+Created time
+Generates a status
+download
+Created, waiting for generation
+Generating
+Completed generation
+Generated successfully
+The number of results exceeds the limit and can not be generated
+Parameter error, can not be generated
+Build failed
+Generating, please wait
+The generated data is empty
+{{Key}} - {{value}}
+Please enter a role name
+Please select role permissions
+The role is added successfully
+Edit role successfully
+Delete role succeeded
+No role information
+Role Name:
+Role Permissions:
+select all
+Are you sure you want to delete the role [{{roleName}}]?
+management
+Role list
+Storage configuration
+Stores the name
+The original dimension
+The dimension type
+Please set 1 ~ 16 characters, the characters in English, numbers
+Please set 1 ~ 50 characters, characters are Chinese, English, numbers, underscores, @ symbols
+Please set 1 ~ 50 characters in Chinese, English, numbers, underline, brackets, brackets
+Please set 1 ~ 16 characters, the characters are Chinese, English, numbers
+Leave the decimal places
+Date format
+Please set a value between 0 and 4
+Set the format must contain y, M, d, H, m, s, S, said the date, time,
+Whether multi-valued
+Displays the configuration
+show name
+Is displayed
+Display units
+Display format
+Analyze the configuration
+The default search method
+Quick Search
+Packet statistics
+filter
+Case sensitive
+Grouping interval
+File import failed
+The file was imported successfully
+Section list information is incorrect
+Add up to 10 intervals
+Please enter a storage name
+The storage name entered is incorrect
+The interval name can not be duplicated
+Allows up to 100 dimensions to be added
+The dimension was added successfully
+Edit the dimension successfully
+Delete the dimension successfully
+There are no deletable dimensions
+Please enter a storage name
+Please enter the original dimension
+Please enter a date format
+Date format Please enter at least one character in y, M, d, H, m, s, S
+Please enter a display name
+The storage configuration information you entered is incorrect
+The display configuration information you entered is incorrect
+Save the dimension successfully
+Display format Please enter at least one character of y, M, d, H, m, s, S
+Please select a grouping interval
+Decide to delete dimension {{dimensionName}}
+Delete the dimension
+Copy the dimensions
+Store name: {{storeName}}
+Display Name: {{displayName}}
+Interval list
+name
+Interval
+operating
+Interval configuration
+Text list
+Displays the text list
+Hides the text list
+category
+Displays the text time
+Hide text time
+Listen list
+The voice list is displayed
+Hide the voice list
+The recognition result is empty
+{{Rate}} times
+Click Cancel auto-sync scrolling
+Tap to switch to auto-sync scrolling
+To do more than 10 models can be selected
+account number:
+Set user roles:
+To set a user group:
+management
+Reassign
+List of user groups
+user list
+User Assignment
+Username can not be empty
+Please select a user group
+The user is assigned successfully
+Reassign the user successfully
+Delete user successfully
+The current user does not have a token, please generate it
+The current user generates a Token successfully
+Decide to delete user {{userName}}
+360 degree speech analysis system
+Please contact the administrator after authorization
+re-register
+Please select the import column
+User Group Name:
+Permission settings:
+Permission condition list
+Are you sure you want to delete the user group [{{groupName}}, and its associated users, model groups, models?
+Current user group:
+Failed to get user group data permission contents
+User Group Data Permission Content Parse Error
+Total throughput: {{count}}
+Total success: {{count}}
+Daily throughput: {{count}}
+Day Success: {{count}}
+Starting and ending dates:
+day
+week
+month
+Quarter
+Six months
+year
+Import
+Export
+Importing ...
+Exporting ...
+The import was successful
+Export succeeded
+Import failed
+Export failed
+Yes
+no
+save
+edit
+delete
+Clear the search
+confirm
+cancel
+search for
+New
+download
+mobile
+online
+Off the assembly line
+shared
+Unshare
+Call volume
+Call accounting
+loading
+allow
+Prohibited
+Add to
+prompt
+no
+Sign out
+Classification trends
+Hot word trend
+hot word
+Model hit
+All
+Hit the model
+Missing model
+classification
+Call volume trends
+Curve management
+Export the report
+model
+Belong to the model
+Does not belong to the model
+Decide to delete report {{reportName}}
+ Are you sure you want to delete the selected report?
+name
+display
+Colour
+Management operations
+The current list has no data and can not be exported
+The report export was successful
+There is no relevant model
+Variety
+Accounting for
+Start page
+Number of pages exported
+The name of the report
+Character
+cycle
+Model group
+Up to 10 curves can be drawn
+Ready to build
+Generating
+Generated successfully
+Use the full result preview
+Use the filtered results preview
+The model content tree has a maximum of 200 nodes
+Model content parsing error
+The model was added successfully
+Edit the model successfully
+The text content tree has a maximum of 100 nodes
+Please enter model text
+Please set the and, or logical relationship words
+Keywords near, after and after do not support not
+Text parsing error
+Click Add {{wordTip}} to the model
+The model name can not be null
+Model content can not be empty
+Please select a model group
+The current model condition is not available
+Empty the model
+Thinking {{keyword}}
+{{ModelName}} [Not available]
+Please enter a keyword
+No association with the results
+Error, no-dot information
+No relevant model data was found
+Set the model dimension
+Set the model value
+Please select a model
+Please set the model relationship
+The preceding value of the interval value can not be greater than the latter value
+Only one call dimension can be added
+The search results are empty
+A maximum of 10 models can be selected
+Failed to import dimension values
+The maximum number of model groups is 1000
+Import the success information {{successCount}}, and import the failure information {{failCount}}
+Modeling rules:
+1, "and" keyword that "and" relationship can be matched to both keywords left or right key words or sub-model expression of the text;
+2, "or" keyword that "or" relationship, you can match to the presence of keywords at least one keyword or sub-model expression of the text;
+3, "not" keyword that "non" relationship, can not match the keyword to the right of the keyword or sub-expression;
+4, "near" keyword that "close" relationship, you can match to the existence of keywords around the two keywords and the distance between the two words in the N words;
+5, "A -", "B-" keyword that the role of the keyword, you can correspond to the role of keywords, any role can be the default match;
+6, "after" keyword that has the order of "close" relationship, you can match to the existence of key words on the left and the next N words will be the keyword on the right side of the keyword;
+7, "()" denotes the sub-model expression, you can use the above keywords in parentheses to define the model and improve the matching priority of the sub-model, including re-nesting sub-model;
+8, "automatic modeling" word association results can be associated with more than N all the keywords to "or" keyword connection as a submodel, added to the model text;
+9, "add" to add the current keyword model text;
+10, "association" can associate the association keyword and the current association result keyword to "after" keyword connection, add to the model text;
+Note: Keyword matching precedence is in order (sibling keyword from left to right): ()> not> after / near> and / or
+Thinking {{keyword}}
+Dimensions
+relationship
+Search TOP10000
+Please set an integer between -99999999999 to + 99999999999, you can use "," to do more than set the value of the separator, allowing up to 5000 values
+Set an integer between -99999999999 to + 99999999999
+Please set an integer between -99999999999 to + 99999999999 and use "~" as the separator
+Please set the value between -1.17549435e38 ~ 3.4028235e38, you can use "," to do more than set the value of the separator, allowing up to 5000 values
+Set the value between -1.17549435e38 and 3.4028235e38
+Please set the value between -1.17549435e38 ~ 3.4028235e38, use the "~" to do the separator
+Preview the model
+Model preview
+Model / Keyword
+The model name
+Model hit keywords
+Save and go online
+Model grouping:
+{{ModelName}} Not available:
+Model added
+Model editing
+Save to model content
+Already have the same filter path
+The filter was added successfully
+Edit filter succeeded
+Filter content parse error
+Unknown model
+Failed to get filter content
+The content of the filter is empty
+Are you sure you want to delete the model group {{groupName}}?
+Failed to get model content
+Please select a model group
+Delete the model
+move to
+Shared
+prompt
+online
+Off the assembly line
+Edit Share
+Unshare
+Please select a group to share
+On-line success: {{successNum}} failed on line: {{failNum}}
+Successful offline: {{successNum}} failed: {{failNum}}
+On-line success
+On-line failure
+Offline success
+Offline failed
+Deleting model information succeeded
+Deleting model information failed
+Deleted Success: {{successNum}} Delete failed: {{failNum}}
+Moving model information failed
+Mobile Success: {{successNum}} Mobile Failed: {{failNum}}
+The model group name can not be empty
+You can not edit a shared model group
+Unable to delete shared model groups
+Unable to manipulate shared model
+Up to 10 model groups can be selected
+The maximum number of model groups is 1000
+There are other model groups in progress. Please complete first
+Model sharing success
+Model sharing failed
+Shared success: {{successNum}} Sharing failed: {{failNum}}
+Cancel model share successfully
+Canceling model share failed
+Canceled: {{successNum}} Cancel failed: {{failNum}}
+There are no user groups that can be shared
+Please enter the export file name
+Already online
+Has been off the assembly line
+Edit Share
+Unshare
+Export the file name
+Select the model group
+Select a user group
+List of models
+List of model groups
+Delete the model group
+Are you sure you want to delete the selected model?
+Are you sure you want to delete the model {{{deleteModelName}}?
+Import successful: {{successNum}} Import failed: {{failNum}}
+Import failed
+Are you sure you want to delete the filter {{filterName}}
+The currently displayed item in the call list can not be empty
+This task does not hit the business model!
+Display Management
+(The current user group is not available)
+(deleted)
+(Unshared)
+(Off the assembly line)
+Delete filter succeeded
+No filter information
+File import failed
+The file was imported successfully
+The name of the export file can not be empty
+The filter name can not be empty
+The filter name
+Export the file name
+Export the filter
+List of filter criteria
+Filter content can not be empty
+The filter content is empty or the filter condition is not available
+Current user group {{type.use}}
+Deleted {{type.modelDelete}}
+Off {{type.modelStatus}}
+Unshared {{type.modelShare}}
+management
+The query type
+Query the value
+Failed to get thematic model
+Please enter a topic name
+Please add a model for the topic
+Delete the topic successfully
+No topic information
+Save the topic
+Empty topics
+Topic title
+Thematic editing
+List of models
+Topic List
+The maximum number of supported models for the topic list is 100
+The maximum support level for the topic list is 10 levels
+Set the filter location
+Set the filter value
+The current condition already exists
+The current model condition already exists
+The filter name can not be empty
+The filter path can not be empty
+operation failed
+Filter management
+please choose
+Save Name:
+Save as a filter
+Filter name: [{{filterName}}]
+Filter content: [{{filterFormula}}]
+Click the button to save the filter path as a filter
+Click Display Filter Management
+please enter...
+Failed to get the model ID
+The current date type dimension does not support adding filter criteria
+Failed to load template
+Delete the report successfully
+No report information
+Report Management
+installation
+Uninstall
+The uninstall was successful
+Uninstall failed
+installing...
+Successful installation
+installation failed
+The parameter setting is successful
+Parameter setting failed
+Get parameter successfully
+Failed to get the parameter
+Parameter reset succeeded
+Parameter reset failed
+Are you sure you want to uninstall {{reportTemplateName}}?
+Author
+Production date
+Floating-point parameter setting is invalid, please reset
+loading
+successfully deleted
+failed to delete
+management
+save
+Configuration
+cancel
+determine
+Add to
+delete
+Uninstall
+parameter settings
+The name of the template
+management
+[unavailable]
+Reset
+Path:
+Reason mining
+The last message can not be deleted
+Cause The query result is empty
+press
+Grouping, comparison
+Up to five curves can be drawn
+The filter condition already exists
+Filter Condition Management
+Contrast the dataset
+Contrast data graph
+Add a filter condition
+Add the filter path
+Export Contrast
+path
+display
+Colour
+management
+Please add a filter path
+Already have the same filter
+The path name
+Start page
+Number of pages exported
+The name of the export
+Export the chart
+The comparison data is empty
+The current filtering information is 0, please re-filter
+The path name can not be null
+Delete the path
+Are you sure you want to delete {{pathName}}?
+Decide to delete topic {{treeName}}
+Are you sure you want to delete the selected topic?
+batch deletion
+Unauthorized users are logged in. Please contact your administrator
+Filter management
+New
+Business trends - parameter configuration
+application
+Total number of hot words trend analysis
+Model - parameter configuration
+Automatically model relevance
+Matching distance
+Cross Analysis - Parameter Configuration
+Call List Displays the Manage-Dimension Configuration
+globalization
+Multi-language support
+Skin selection
+Optional skin
+To modify
+upload files
+uploading...
+Upload
+Click Edit
+change Password
+change Password
+The parameter setting is successful
+Parameter setting error
+Token management
+Generates a token
+Click Generate to disable the old token. Confirmed generation?
+{{Token}}
+globalization
+Multi-language support
+Skin selection
+Optional skin
+Call List Displays the Manage-Dimension Configuration
+Click Edit
+change Password
+change Password
+Trend analysis, the default model group display
+Cross-analysis, the default model group display
+Default model group
+Application success
+Application failed
+Failed to get user parameter
+Failed to get user model group
+There is no model group under the current user group
+Failed to get the model list under the model group
+No data available
+Query data failed
+Request error, query failed
+Request model group error, query failed
+Query all dimensions failed
+An error was requested for all dimensions, and the query failed
+Start page:
+Export pages:
+Report Title:
+Export list page number settings
+Packet statistics
+My topic
+Classification
+Model group
+Gets the success of the group under the user group
+There is no model under the current model group
+Model group
+Click Add Filter
+Call volume
+Call accounting
+Ascending by value
+Descending by value
+Name Ascending
+Name descending order
+The current table data is too large to fit in a pie chart
+Column chart
+Pie chart
+{{Token}}
+Generate reports
+Please select a report template
+* Note: Reports are generated based on the current filtering results
+Report Title:
+loading
+Stop words:
+status:
+Application modules:
+Enabled
+activated
+Disable
+terminated
+Enabled stopwords can not be edited / deleted. Please disable the stop
+New stop words
+Modify the stop words
+Remove the stop words
+Failed to get the stop word
+Operation failed. Please try again
+Request exception. Please try again
+successfully deleted
+The content of the stop words can not be empty
+Stop words can only contain numbers, letters, Chinese, and the maximum length of 16 characters
+The application module can not be empty
+New successfully
+New failed
+Successfully modified
+Edit failed. Please try again
+Search for a successful stop
+Search term failed, please try again
+Batch enabled successfully
+Batch Enabled failed. Please try again
+Batch deactivation succeeded
+Bulk deactivation failed. Please try again
+Batch edit succeeded
+Bulk edit failed. Please try again
+Batch delete succeeded
+Bulk delete failed. Please try again
+Operation prompt
+Stop words
+founder
+Last Created by
+Last Modified
+Application module
+status
+management
+Search content ...
+The stop words are separated by carriage return or Chinese commas (,)
+The stopword already exists
+New successful, and automatically remove the existing stop words
+Start page:
+Export pages:
+Report Title:
+Template Type:
+Select model:
+Select a dimension:
+Add keywords:
+Start
+time out
+stop
+Speed ​​playback
+The maximum number of nodes in the model tree is {{value}}
+The maximum depth of the model tree is {{value}}
+The voice player is loaded successfully
+The voice is playing
+Caching language
+The voice buffer is complete
+Pause playback
+Stop play
+The voice buffer failed
